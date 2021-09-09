@@ -26,12 +26,12 @@ $ npm install @ts-all/eslint-config -D
 $ npx eslint ./ --ext .ts --ext .js
 ```
 
-## Dependencies
+## Dependencies and working versions
 
-* [eslint](https://www.npmjs.com/package/eslint)
-* [@typescript-eslint/parser](https://www.npmjs.com/@typescript-eslint/parser)
-* [@typescript-eslint/eslint-plugin](https://www.npmjs.com/@typescript-eslint/eslint-plugin)
-* [eslint-plugin-import](https://www.npmjs.com/eslint-plugin-import)
-* [eslint-plugin-jsdoc](https://www.npmjs.com/eslint-plugin-jsdoc)
-* [eslint-plugin-sonarjs](https://www.npmjs.com/eslint-plugin-sonarjs)
-* [eslint-plugin-unicorn](https://www.npmjs.com/eslint-plugin-unicorn)
+* [eslint](https://www.npmjs.com/package/eslint) @ `7.32.0`
+* [@typescript-eslint/parser](https://www.npmjs.com/@typescript-eslint/parser) @ `4.31.0`
+* [@typescript-eslint/eslint-plugin](https://www.npmjs.com/@typescript-eslint/eslint-plugin) @ `4.31.0`
+* [eslint-plugin-import](https://www.npmjs.com/eslint-plugin-import) @ `2.24.2`
+* [eslint-plugin-jsdoc](https://www.npmjs.com/eslint-plugin-jsdoc) @ `36.1.0`
+* [eslint-plugin-sonarjs](https://www.npmjs.com/eslint-plugin-sonarjs) @ `0.10.0`
+* [eslint-plugin-unicorn](https://www.npmjs.com/eslint-plugin-unicorn) @ `35.0.0`

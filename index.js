@@ -139,7 +139,7 @@ module.exports = {
         "complexity": [
             "error",
             {
-                "max": 99
+                "max": 36
             }
         ],
         "consistent-return": [
@@ -1065,7 +1065,7 @@ module.exports = {
         // eslint-plugin-sonarjs Code Smell Detection
         "sonarjs/cognitive-complexity": [
             "error",
-            18
+            36
         ],
         "sonarjs/elseif-without-else": "off",
         "sonarjs/max-switch-cases": "error",
