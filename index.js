@@ -28,7 +28,7 @@ module.exports = {
             }
         ],
         "no-async-promise-executor": "error",
-        "no-await-in-loop": "error",
+        "no-await-in-loop": "off",
         "no-compare-neg-zero": "error",
         "no-cond-assign": [
             "error",
@@ -1347,9 +1347,9 @@ module.exports = {
                     "error",
                     {
                         "allowConstructorOnly": false,
-                        "allowEmpty": true,
-                        "allowStaticOnly": false,
-                        "allowWithDecorator": false
+                        "allowEmpty": false,
+                        "allowStaticOnly": true,
+                        "allowWithDecorator": true
                     }
                 ],
                 "@typescript-eslint/no-floating-promises": [
