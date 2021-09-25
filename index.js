@@ -995,7 +995,7 @@ module.exports = {
         "unicorn/no-unused-properties": "off",
         "unicorn/no-useless-length-check": "error",
         "unicorn/no-useless-spread": "error",
-        "unicorn/no-useless-undefined": "error",
+        "unicorn/no-useless-undefined": "off",
         "unicorn/no-zero-fractions": "error",
         "unicorn/number-literal-case": "error",
         "unicorn/numeric-separators-style": [
