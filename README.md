@@ -29,8 +29,8 @@ $ npx eslint ./ --ext .ts --ext .js
 ## Dependencies and working versions
 
 * [eslint](https://www.npmjs.com/package/eslint) @ `7.32.0`
-* [@typescript-eslint/parser](https://www.npmjs.com/@typescript-eslint/parser) @ `4.31.2`
-* [@typescript-eslint/eslint-plugin](https://www.npmjs.com/@typescript-eslint/eslint-plugin) @ `4.31.2`
+* [@typescript-eslint/parser](https://www.npmjs.com/@typescript-eslint/parser) @ `4.32.0`
+* [@typescript-eslint/eslint-plugin](https://www.npmjs.com/@typescript-eslint/eslint-plugin) @ `4.32.0`
 * [eslint-plugin-import](https://www.npmjs.com/eslint-plugin-import) @ `2.24.2`
 * [eslint-plugin-jsdoc](https://www.npmjs.com/eslint-plugin-jsdoc) @ `36.1.0`
 * [eslint-plugin-sonarjs](https://www.npmjs.com/eslint-plugin-sonarjs) @ `0.10.0`

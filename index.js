@@ -1395,6 +1395,7 @@ module.exports = {
                         "allowDefinitionFiles": true
                     }
                 ],
+                "@typescript-eslint/no-non-null-asserted-nullish-coalescing": "error",
                 "@typescript-eslint/no-non-null-asserted-optional-chain": "error",
                 "@typescript-eslint/no-non-null-assertion": "error",
                 "@typescript-eslint/no-parameter-properties": [
@@ -1417,6 +1418,7 @@ module.exports = {
                     }
                 ],
                 "@typescript-eslint/no-require-imports": "error",
+                "@typescript-eslint/no-restricted-imports": "off",
                 // in favor of @typescript-eslint/no-shadow
                 "no-shadow": "off",
                 "@typescript-eslint/no-shadow": "error",
@@ -1435,6 +1437,7 @@ module.exports = {
                         "allowCallbacks": "never",
                         "allowConditionalTypes": "never",
                         "allowConstructors": "never",
+                        "allowGenerics": "always",
                         "allowLiterals": "never",
                         "allowMappedTypes": "never",
                         "allowTupleTypes": "always"
