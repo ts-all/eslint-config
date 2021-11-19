@@ -909,7 +909,6 @@ module.exports = {
         // eslint-plugin-jsdoc
         "jsdoc/check-access": "error",
         "jsdoc/check-alignment": "error",
-        "jsdoc/check-examples": "error",
         "jsdoc/check-indentation": "error",
         "jsdoc/check-line-alignment": "error",
         "jsdoc/check-param-names": "error",
@@ -1455,13 +1454,6 @@ module.exports = {
                 "@typescript-eslint/no-unsafe-member-access": "error",
                 "@typescript-eslint/no-unsafe-return": "error",
                 "@typescript-eslint/no-unused-expressions": "error",
-                "@typescript-eslint/no-unused-vars-experimental": [
-                    "error",
-                    {
-                        "ignoreArgsIfArgsAfterAreUsed": true,
-                        "ignoredNamesRegex": ""
-                    }
-                ],
                 // in favor of @typescript-eslint/no-unused-vars
                 "no-unused-vars": "off",
                 "@typescript-eslint/no-unused-vars": [
