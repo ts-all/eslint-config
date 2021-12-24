@@ -1496,7 +1496,7 @@ module.exports = {
                 "@typescript-eslint/prefer-includes": "error",
                 "@typescript-eslint/prefer-literal-enum-member": "error",
                 "@typescript-eslint/prefer-namespace-keyword": "error",
-                "@typescript-eslint/prefer-nullish-coalescing": "error",
+                "@typescript-eslint/prefer-nullish-coalescing": "off",
                 "@typescript-eslint/prefer-optional-chain": "error",
                 "@typescript-eslint/prefer-readonly-parameter-types": [
                     "off",
