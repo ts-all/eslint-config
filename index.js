@@ -896,7 +896,7 @@ module.exports = {
         "import/no-useless-path-segments": "error",
         "import/no-webpack-loader-syntax": "error",
         "import/order": [
-            "error",
+            "off",
             {
                 "alphabetize": {
                     "order": "asc",
@@ -1263,7 +1263,7 @@ module.exports = {
                         "format": [
                             "strictCamelCase"
                         ],
-                        "leadingUnderscore": "forbid",
+                        "leadingUnderscore": "allow",
                         "trailingUnderscore": "forbid"
                     },
                     {
@@ -1291,6 +1291,20 @@ module.exports = {
                         ],
                         "leadingUnderscore": "forbid",
                         "trailingUnderscore": "forbid"
+                    },
+                    {
+                        "selector": [
+                            "classProperty",
+                            "objectLiteralProperty",
+                            "typeProperty",
+                            "classMethod",
+                            "objectLiteralMethod",
+                            "typeMethod",
+                            "accessor",
+                            "enumMember"
+                        ],
+                        "format": null,
+                        "modifiers": ["requiresQuotes"]
                     }
                 ],
                 // in favor of @typescript-eslint/no-array-constructor
