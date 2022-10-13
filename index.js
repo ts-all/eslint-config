@@ -1451,8 +1451,8 @@ module.exports = {
                         "allowConditionalTypes": "never",
                         "allowConstructors": "never",
                         "allowGenerics": "always",
-                        "allowLiterals": "never",
-                        "allowMappedTypes": "never",
+                        "allowLiterals": "always",
+                        "allowMappedTypes": "always",
                         "allowTupleTypes": "always"
                     }
                 ],
