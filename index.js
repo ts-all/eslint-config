@@ -874,7 +874,10 @@ module.exports = {
         "import/no-cycle": "error",
         "import/no-default-export": "error",
         "import/no-deprecated": "error",
-        "import/no-duplicates": "error",
+        "import/no-duplicates": [
+            "error",
+            { "prefer-inline": true }
+        ],
         "import/no-dynamic-require": "error",
         "import/no-extraneous-dependencies": "off",
         "import/no-import-module-exports": "error",
@@ -1319,12 +1322,6 @@ module.exports = {
                     }
                 ],
                 "@typescript-eslint/no-dupe-class-members": "error",
-                "@typescript-eslint/no-duplicate-imports": [
-                    "error",
-                    {
-                        "includeExports": true
-                    }
-                ],
                 "@typescript-eslint/no-dynamic-delete": "error",
                 "@typescript-eslint/no-empty-function": [
                     "error",
@@ -1373,12 +1370,6 @@ module.exports = {
                     }
                 ],
                 "@typescript-eslint/no-for-in-array": "error",
-                "@typescript-eslint/no-implicit-any-catch": [
-                    "error",
-                    {
-                        "allowExplicitAny": true
-                    }
-                ],
                 "@typescript-eslint/no-implied-eval": "error",
                 "@typescript-eslint/no-inferrable-types": "off",
                 // in favor of @typescript-eslint/no-invalid-this
@@ -1411,10 +1402,10 @@ module.exports = {
                 "@typescript-eslint/no-non-null-asserted-nullish-coalescing": "error",
                 "@typescript-eslint/no-non-null-asserted-optional-chain": "error",
                 "@typescript-eslint/no-non-null-assertion": "error",
-                "@typescript-eslint/no-parameter-properties": [
+                "@typescript-eslint/parameter-properties": [
                     "error",
                     {
-                        "allows": [
+                        "allow": [
                             "private readonly",
                             "protected readonly",
                             "public readonly"
@@ -1540,7 +1531,7 @@ module.exports = {
                 "@typescript-eslint/restrict-plus-operands": [
                     "error",
                     {
-                        "checkCompoundAssignments": true
+                        "skipCompoundAssignments": false
                     }
                 ],
                 "@typescript-eslint/restrict-template-expressions": [
