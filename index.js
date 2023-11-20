@@ -13,12 +13,15 @@ module.exports = {
         "sourceType": "module"
     },
     "plugins": [
+        "deprecation",
         "import",
         "jsdoc",
-        "unicorn",
-        "sonarjs"
+        "sonarjs",
+        "unicorn"
     ],
     "rules": {
+        // eslint-plugin-deprecation
+        "deprecation/deprecation": "error",
         // ESLint / Possible Errors
         "for-direction": "error",
         "getter-return": [
@@ -960,7 +963,12 @@ module.exports = {
         "unicorn/better-regex": "error",
         "unicorn/catch-error-name": "off",
         "unicorn/consistent-destructuring": "error",
-        "unicorn/consistent-function-scoping": "error",
+        "unicorn/consistent-function-scoping": [
+            "error",
+            {
+                "checkArrowFunctions": false
+            }
+        ],
         "unicorn/custom-error-definition": "off",
         "unicorn/empty-brace-spaces": "off",
         "unicorn/error-message": "error",
