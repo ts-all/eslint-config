@@ -30,5 +30,5 @@
         "type": "git",
         "url": "https://github.com/ts-all/eslint-config.git"
     },
-    "version": "0.1.17"
+    "version": "0.1.18"
 }
