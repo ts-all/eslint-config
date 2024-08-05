@@ -4,16 +4,19 @@
         "url": "https://github.com/ts-all/eslint-config/issues"
     },
     "dependencies": {
-        "@typescript-eslint/eslint-plugin": "latest",
-        "@typescript-eslint/parser": "latest",
-        "eslint": "latest",
-        "eslint-plugin-deprecation": "latest",
-        "eslint-plugin-import": "latest",
-        "eslint-plugin-jsdoc": "latest",
-        "eslint-plugin-sonarjs": "latest",
-        "eslint-plugin-unicorn": "latest"
+        "@typescript-eslint/eslint-plugin": "^7.18.0",
+        "@typescript-eslint/parser": "^7.18.0",
+        "eslint": "^8.57.0",
+        "eslint-plugin-deprecation": "^3.0.0",
+        "eslint-plugin-import": "^2.29.1",
+        "eslint-plugin-jsdoc": "^48.11.0",
+        "eslint-plugin-sonarjs": "^1.0.4",
+        "eslint-plugin-unicorn": "^55.0.0"
     },
     "description": "eslint-config for TypeScript projects",
+    "devDependencies": {
+        "typescript": "^5.5.4"
+    },
     "homepage": "https://github.com/ts-all/eslint-config#readme",
     "keywords": [
         "eslint",
@@ -30,5 +33,5 @@
         "type": "git",
         "url": "https://github.com/ts-all/eslint-config.git"
     },
-    "version": "0.1.18"
+    "version": "0.1.19"
 }
