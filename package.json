@@ -4,34 +4,45 @@
         "url": "https://github.com/ts-all/eslint-config/issues"
     },
     "dependencies": {
-        "@typescript-eslint/eslint-plugin": "^7.18.0",
-        "@typescript-eslint/parser": "^7.18.0",
-        "eslint": "^8.57.0",
-        "eslint-plugin-deprecation": "^3.0.0",
-        "eslint-plugin-import": "^2.29.1",
-        "eslint-plugin-jsdoc": "^48.11.0",
-        "eslint-plugin-sonarjs": "^1.0.4",
-        "eslint-plugin-unicorn": "^55.0.0"
+        "@stylistic/eslint-plugin": "^3.1.0",
+        "@typescript-eslint/eslint-plugin": "^8.24.0",
+        "@typescript-eslint/parser": "^8.24.0",
+        "eslint": "^9.20.1",
+        "eslint-plugin-jsdoc": "^50.6.3",
+        "eslint-plugin-sonarjs": "^3.0.1",
+        "eslint-plugin-unicorn": "^56.0.1",
+        "globals": "^15.15.0"
     },
     "description": "eslint-config for TypeScript projects",
     "devDependencies": {
-        "typescript": "^5.5.4"
+        "@types/node": "^22.13.2",
+        "typescript": "^5.7.3"
+    },
+    "exports": {
+        ".": "./esm/index.js",
+        "./config": "./config/index.ts"
     },
     "homepage": "https://github.com/ts-all/eslint-config#readme",
     "keywords": [
         "eslint",
-        "eslint-config",
-        "typescript"
+        "eslnit-config",
+        "typescript",
+        "typescript-eslint"
     ],
     "license": "MIT",
-    "main": "index.js",
+    "module": "./esm/index.js",
     "name": "@ts-all/eslint-config",
     "publishConfig": {
         "access": "public"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/ts-all/eslint-config.git"
+        "url": "git+https://github.com/ts-all/eslint-config.git"
     },
-    "version": "0.1.19"
+    "scripts": {
+        "start": "tsc -p ./tsconfig.eslint.json && eslint"
+    },
+    "type": "module",
+    "types": "./esm/index.d.ts",
+    "version": "0.2.1"
 }
