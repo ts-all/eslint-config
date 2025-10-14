@@ -14,6 +14,22 @@ import { default as config } from '@ts-all/eslint-config';
 export default config;
 ```
 
+* specify a tsconfig json file
+```javascript
+import { default as config } from '@ts-all/eslint-config';
+
+export default [...config, {
+    name: '@ts-all/eslint-config',
+    languageOptions: {
+        parserOptions: {
+            project: './tsconfig.lint.json',
+            projectService: false,
+            tsconfigRootDir: import.meta.dirname,
+        },
+    },
+}];
+```
+
 * linting
 ```shell
 $ npx eslint
