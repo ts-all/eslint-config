@@ -4,18 +4,18 @@
         "url": "https://github.com/ts-all/eslint-config/issues"
     },
     "dependencies": {
-        "@stylistic/eslint-plugin": "^5.4.0",
-        "@typescript-eslint/eslint-plugin": "^8.46.1",
-        "@typescript-eslint/parser": "^8.46.1",
-        "eslint": "^9.37.0",
-        "eslint-plugin-jsdoc": "^61.1.2",
+        "@stylistic/eslint-plugin": "^5.6.1",
+        "@typescript-eslint/eslint-plugin": "^8.47.0",
+        "@typescript-eslint/parser": "^8.47.0",
+        "eslint": "^9.39.1",
+        "eslint-plugin-jsdoc": "^61.3.0",
         "eslint-plugin-sonarjs": "^3.0.5",
-        "eslint-plugin-unicorn": "^61.0.2",
-        "globals": "^16.4.0"
+        "eslint-plugin-unicorn": "^62.0.0",
+        "globals": "^16.5.0"
     },
     "description": "eslint-config for TypeScript projects",
     "devDependencies": {
-        "@types/node": "^24.7.2",
+        "@types/node": "^24.10.1",
         "typescript": "^5.9.3"
     },
     "exports": {
@@ -44,5 +44,5 @@
     },
     "type": "module",
     "types": "./esm/index.d.ts",
-    "version": "0.3.1"
+    "version": "0.3.3"
 }

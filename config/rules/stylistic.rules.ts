@@ -132,7 +132,7 @@ export const stylisticRules: Linter.RulesRecord = Object.freeze<Linter.RulesReco
     '@stylistic/switch-colon-spacing': ['error', { after: true, before: false }],
     '@stylistic/template-curly-spacing': ['error', 'never'],
     '@stylistic/template-tag-spacing': ['error', 'never'],
-    '@stylistic/type-annotation-spacing': ['error', { before: false, after: true, overrides: { arrow: { before: true, after: true } } }],
+    '@stylistic/type-annotation-spacing': ['error', { before: true, after: true, overrides: { colon: { before: false, after: true } } }],
     '@stylistic/type-generic-spacing': 'error',
     '@stylistic/type-named-tuple-spacing': 'error',
     '@stylistic/wrap-iife': ['error', 'any'],

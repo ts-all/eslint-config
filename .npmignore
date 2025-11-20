@@ -1,5 +1,6 @@
 .editorconfig
 .vscode
+dist
 eslint.config.mjs
 lintee
 tsconfig.eslint.json
