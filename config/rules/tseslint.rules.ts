@@ -145,7 +145,7 @@ export const tseslintRules: Linter.RulesRecord = Object.freeze<Linter.RulesRecor
     '@typescript-eslint/no-unnecessary-parameter-property-assignment': 'error',
     '@typescript-eslint/no-unnecessary-qualifier': 'error',
     '@typescript-eslint/no-unnecessary-template-expression': 'error',
-    '@typescript-eslint/no-unnecessary-type-arguments': 'error',
+    '@typescript-eslint/no-unnecessary-type-arguments': 'off',
     '@typescript-eslint/no-unnecessary-type-assertion': 'error',
     '@typescript-eslint/no-unnecessary-type-constraint': 'error',
     '@typescript-eslint/no-unnecessary-type-parameters': 'off',
