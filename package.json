@@ -5,17 +5,17 @@
     },
     "dependencies": {
         "@stylistic/eslint-plugin": "^5.10.0",
-        "@typescript-eslint/eslint-plugin": "^8.60.1",
-        "@typescript-eslint/parser": "^8.60.1",
-        "eslint": "^10.4.1",
-        "eslint-plugin-jsdoc": "^63.0.1",
-        "eslint-plugin-sonarjs": "^4.0.3",
-        "eslint-plugin-unicorn": "^64.0.0",
-        "globals": "^17.6.0"
+        "@typescript-eslint/eslint-plugin": "^8.63.0",
+        "@typescript-eslint/parser": "^8.63.0",
+        "eslint": "^10.6.0",
+        "eslint-plugin-jsdoc": "^63.0.12",
+        "eslint-plugin-sonarjs": "^4.1.0",
+        "eslint-plugin-unicorn": "^71.1.0",
+        "globals": "^17.7.0"
     },
     "description": "eslint-config for TypeScript projects",
     "devDependencies": {
-        "@types/node": "^25.9.1",
+        "@types/node": "^26.1.0",
         "typescript": "^6.0.3"
     },
     "exports": {
@@ -44,5 +44,5 @@
     },
     "type": "module",
     "types": "./esm/index.d.ts",
-    "version": "0.3.9"
+    "version": "0.3.10"
 }
