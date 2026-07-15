@@ -9,3 +9,11 @@ if (arr instanceof Array) {
 const str: string = 'asdfasfd';
 
 const hidePopup: () => void;
+
+interface IModel {
+    name: string;
+}
+
+interface ModelBase {
+    name: string;
+}
